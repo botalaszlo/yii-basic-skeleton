@@ -75,6 +75,12 @@ AppAsset::register($this);
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
+
+        <p class="pull-right">
+          <small>
+            Load time: <?= round(microtime(true) - START_TIME, 5) ?> s.
+          </small>&nbsp;
+        </p>
     </div>
 </footer>
 
