@@ -6,7 +6,10 @@ use yii\base\Model;
 use Yii;
 
 /**
- * Profile form
+ * Account form
+ * This is a form model for the user to be able to update his/her account data.
+ *
+ * @see yii\base\Model;
  */
 class AccountForm extends Model {
 
@@ -15,7 +18,7 @@ class AccountForm extends Model {
     public $password;
     public $passwordRepeat;
 
-    function __construct() {
+    public function __construct() {
         parent::__construct();
         $this->username = Yii::$app->user->identity->username;
         $this->email = Yii::$app->user->identity->email;

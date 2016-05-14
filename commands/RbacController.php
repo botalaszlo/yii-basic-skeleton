@@ -16,9 +16,10 @@ use app\models\User;
  */
 class RbacController extends Controller
 {
-	/**
-	 * Initialize action
-	 */
+    /**
+     * Initialize action
+     * @throws \Exception
+     */
     public function actionInit()
     {
         $auth = Yii::$app->authManager;

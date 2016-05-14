@@ -8,6 +8,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use app\widgets\ActionTime;
 
 AppAsset::register($this);
 ?>
@@ -77,9 +78,7 @@ AppAsset::register($this);
         <p class="pull-right"><?= Yii::powered() ?></p>
 
         <p class="pull-right">
-          <small>
-            Load time: <?= round(microtime(true) - START_TIME, 5) ?> s.
-          </small>&nbsp;
+            <small class="text-muted"><?= ActionTime::widget() ?></small>
         </p>
     </div>
 </footer>

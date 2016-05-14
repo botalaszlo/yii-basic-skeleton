@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use Yii;
+use app\components\ActionTimeFilter;
 use app\models\forms\LoginForm;
 use app\models\forms\PasswordResetRequestForm;
 use app\models\forms\ResetPasswordForm;
@@ -34,6 +35,9 @@ class SiteController extends Controller
                         'roles' => ['@'],
                     ],
                 ],
+            ],
+            'actiontime' => [
+                'class' => ActionTimeFilter::className(),
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),

@@ -36,9 +36,10 @@ class AccountController extends Controller
     }
 
     /**
-     * Modfiy user's data.
+     * Update user's data.
      *
      * @return mixed
+     * @throws \yii\base\InvalidParamException
      */
     public function actionUpdate()
     {
@@ -53,8 +54,8 @@ class AccountController extends Controller
      * Deletes current logged in user and its profile.
      * If deletion is successful, the browser will be redirected to the 'home' page.
      *
-     * @param integer $id
      * @return mixed
+     * @throws \Exception
      */
     public function actionDelete()
     {
