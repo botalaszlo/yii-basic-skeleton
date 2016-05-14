@@ -2,6 +2,10 @@
 This skeleton repository created in order to extending the original yii-basic template. 
 It provides a basic skeleton for my yii based projects but everyone can uses it.
 
+[![Build Status](https://travis-ci.org/botalaszlo/yii-basic-skeleton.svg?branch=master)](https://travis-ci.org/botalaszlo/yii-basic-skeleton)
+[![Build Status](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/badges/build.png?b=master)](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/?branch=master)
+
 * User table schema added (with admin and demo user seed).
 * User authentication has been added from the yii-advanced template (Database stored).
 * Signup form has been added that so users can register.
