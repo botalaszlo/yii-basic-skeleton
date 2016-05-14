@@ -30,6 +30,7 @@ install:
     cd ..
 
 before_script:
+# database setup:
   - mysql -e 'CREATE DATABASE basic_tests;';
   - cd tests/codeception/bin && php yii migrate --interactive=0 && cd ../../..
     
