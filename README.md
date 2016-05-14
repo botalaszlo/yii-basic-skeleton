@@ -5,6 +5,7 @@ It provides a basic skeleton for my yii based projects but everyone can uses it.
 [![Build Status](https://travis-ci.org/botalaszlo/yii-basic-skeleton.svg?branch=master)](https://travis-ci.org/botalaszlo/yii-basic-skeleton)
 [![Build Status](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/badges/build.png?b=master)](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/botalaszlo/yii-basic-skeleton/?branch=master)
+[![Code Climate](https://codeclimate.com/github/botalaszlo/yii-basic-skeleton/badges/gpa.svg)](https://codeclimate.com/github/botalaszlo/yii-basic-skeleton)
 
 * User table schema added (with admin and demo user seed).
 * User authentication has been added from the yii-advanced template (Database stored).
